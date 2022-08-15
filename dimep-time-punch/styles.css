@@ -1,0 +1,121 @@
+
+
+body {
+    display: block;
+    width: 600px;
+    height: 100%;
+    margin: 50px auto 20px auto;
+    padding: 0;
+    text-align: center;
+    border-radius: 15px;
+    font-size: .85em;
+    color: #6d6f70;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.logo {
+    background-color: rgb(1, 91, 46);
+    padding: 20px 50px 20px 50px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+#logo-img {
+    display: block;
+    width: 250px;
+    margin: auto auto;
+}
+
+.main {
+    background-color: #f2f2f2;
+    border-top: 6px solid #ccc;
+    border: 10px soild blue;
+}
+
+
+.login {
+    display: block;
+    margin: auto auto;
+    width: 500px;
+    padding: 30px 10px 100px 10px;
+    /* border: 1px solid red; */
+}
+
+#input {
+    width: 51%;
+    margin: 5px 0px 5px 5px;
+    border: none;
+    padding-right: 200px;
+    background-color: #ffffff;
+    /* border: 1px solid red; */
+}
+
+#input:focus {
+    cursor: pointer;
+    outline: none;
+}
+
+#email, #password, #time {
+    display: flex;
+    align-items: center;
+    border: 1px #bebebe solid;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+.time {
+    margin-top: 5px;
+}
+
+i {
+    padding: 5px;
+    font-size: .8em;
+    color: #bebebe;
+}
+
+
+#main-p {
+    margin-top: -3px;
+    margin-left: 66%;
+    margin-right: -22px;
+}
+
+
+#btn {
+    padding: 5px 150px 5px 150px;
+    margin: 10px 0px 5px 2%;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: #ccc;
+    border: 1px #bebebe solid;
+    color: #6d6f70;
+    border-radius: 2px;
+}
+
+#btn:hover {
+    background-color: #4c4c4c;
+    color: white;
+}
+
+#home {
+    width: 200px;
+    margin-left: 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+#home-a {
+    font-size: 0.9em;
+    color: #4c4c4c;
+}
+
+
+#p {
+    background-color: #ccc;
+    padding-top: 5px;
+    margin: 0px;
+    height: 25px;
+    color: #6d6f70;
+    font-size: .85em;
+    border-radius: 0px 0px 5px 5px;
+}
